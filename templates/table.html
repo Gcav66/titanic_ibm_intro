@@ -1,0 +1,23 @@
+ <!doctype html>
+ <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Titanic Dashboard</title>
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href="static/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/css/main.css" rel="stylesheet">-->
+ </head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <h1>Titanic Dashboard</h1>
+        <div class="col-md-6">
+          <h2>First Five Rows</h2>
+          {{data|safe}}
+        </div>
+        <div class="col-md-6">
+          <h2>But we can do better, right?</h2>
+        </div>
+    </div>
+  </div>
+</body>
